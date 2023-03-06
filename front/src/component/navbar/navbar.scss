@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: seagreen;
+    color: white;
+    flex-direction: column;
+    transition: 1s all ease;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    &.active{
+        color: rgb(20, 19, 19);
+        background-color: whitesmoke;
+        z-index: 999;
+    }
+    .container{
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-bottom: .9rem;
+        .logo{
+            .text{
+                font-size: 34px;
+                font-weight: bold;
+            }
+            .dot{
+                font-size: 36px;
+                font-weight: bolder;
+                color:rgb(2, 20, 9);
+            }
+        }
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            font-weight: 500;
+            .user{
+                display: flex;
+                align-items: center;
+                gap:1rem;
+                cursor: pointer;
+                position: relative;
+                img{
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .options{
+                    position: absolute;
+                    top: 50px;
+                    right: 0;
+                    padding: 20px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    border: 1px solid lightblue;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .9rem;
+                    color: slategray;
+                    width: 160px;
+                    font-weight: 400;  
+                }
+            }
+            .btn-join{
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 1px solid #1dbf73;
+                cursor: pointer;
+                background-color: transparent;
+                &:hover{
+                    border: 1px solid #1dbf73;
+                    background-color: #1dbf73;
+                }
+            }
+        }
+    }
+    hr{
+        height: 0;
+        width: 100%;
+        border: .5px solid rgb(233, 233, 233);
+    }
+    .menu{
+        width: 1400px;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        color: gray;
+    }
+}

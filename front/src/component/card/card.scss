@@ -1,0 +1,32 @@
+.card{
+    width: 352px;
+    height:344px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    img{
+        width: 352px;
+        height: 344px;
+        object-fit: cover;
+        opacity: 0.9;
+        transition: .4s all ease;
+        &:hover{
+            opacity: 1;
+            transform: scaleY(-10px);
+        }
+    }
+    .desc{
+        font-weight: 300;
+        position: absolute;
+        top:15px;
+        left: 15px;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 24px;
+        position: absolute;
+        left: 15px;
+        top:40px;
+    }
+}

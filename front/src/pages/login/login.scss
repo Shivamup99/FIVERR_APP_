@@ -1,0 +1,133 @@
+$color_1: #1a1f36;
+$color_2: #5469d4;
+$color_3: #fff;
+$color_4: #697386;
+$background-color_1: #ffffff;
+$background-color_2: #5469d4;
+$background-color_3: #212d63;
+$background-color_4: #e3e8ee;
+$background-color_5: #7fd3ed;
+$background-color_6: rgb(255, 255, 255);
+$background-color_7: rgb(84, 105, 212);
+$outline-color_1: rgb(84 105 212 / 0.5);
+
+.login {
+	min-height: 100%;
+	background-color: $background-color_1;
+
+.login-root {
+	background: #fff;
+	display: flex;
+    justify-content: center;
+	width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+.flex-flex {
+	display: flex;
+}
+.align-center {
+	align-items: center;
+}
+.center-center {
+	align-items: center;
+	justify-content: center;
+}
+.box-root {
+	box-sizing: border-box;
+}
+.flex-direction--column {
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.padding-top--64 {
+	padding-top: 64px;
+}
+.padding-top--24 {
+	padding-top: 24px;
+}
+.padding-top--48 {
+	padding-top: 48px;
+}
+.padding-bottom--24 {
+	padding-bottom: 24px;
+}
+.padding-bottom--24-btn {
+	padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+.padding-horizontal--48 {
+	padding: 48px;
+}
+.padding-bottom--15 {
+	padding-bottom: 15px;
+    font-weight: 600;
+    color: #697386;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.flex-justifyContent--center {
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.formbg {
+	margin: 0px auto;
+	width: 648px;
+	background: white;
+	border-radius: 4px;
+	box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+span {
+	display: block;
+	font-size: 20px;
+	line-height: 28px;
+	color: $color_1;
+}
+label {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+.field {
+	input {
+	font-size: 16px;
+	line-height: 28px;
+	padding: 8px 16px;
+	width: 100%;
+	min-height: 44px;
+    margin-top: 5px;
+	border: unset;
+	border-radius: 4px;
+	outline-color: $outline-color_1;
+	background-color: $background-color_6;
+	box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.login-btn{
+    background-color: #5469d4;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+
+}
+.ssolink{
+    display: flex;
+    justify-content: center;
+    color: seagreen;
+}
+}
+}
